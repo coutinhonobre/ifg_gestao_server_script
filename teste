@@ -1,0 +1,13 @@
+vim /etc/apt/sources.list.d/jessie.list
+deb http://ftp.debian.org/debian/ jessie main contrib non-free
+deb-src http://ftp.debian.org/debian/ jessie main contrib non-free
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+
+
+apt update
+
+apt search php5 | grep ^php5
+
+https://www.vivaolinux.com.br/dica/Como-instalar-o-PHP5-no-Debian-10-Buster
