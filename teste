@@ -11,3 +11,4 @@ apt update
 apt search php5 | grep ^php5
 
 https://www.vivaolinux.com.br/dica/Como-instalar-o-PHP5-no-Debian-10-Buster
+https://www.codegrepper.com/code-examples/shell/Updating+from+such+a+repository+can%27t+be+done+securely%2C+and+is+therefore+disabled+by+default.+not+secured+Release%27+is+not+signed.
