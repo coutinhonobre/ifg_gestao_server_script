@@ -18,3 +18,11 @@ wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb &&
 sudo apt install ./mysql-apt-config_0.8.22-1_all.deb &&
 sudo apt update &&
 sudo apt install mysql-server
+
+
+sudo gedit /etc/php/7.4/apache2/php.ini
+short_open_tag = On
+sudo systemctl restart apache2
+
+sudo apt install php-mysql
+sudo systemctl restart apache2
